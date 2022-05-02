@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="src/css/normalize.css" rel="stylesheet">
     <link href="src/css/styles.css" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -13,7 +12,7 @@
 <div class="wrapper">
 
 <!-- Header, contains img logo and nav with 3 li-->
-    <header>
+    <header id="header">
         <div class="logo">
             <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Original Trombones Logo">
         </div>
@@ -25,6 +24,17 @@
             </ul>
         </nav>
     </header>
+
+<!-- Headline and email input -->
+    <section id="hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="#">
+            <input id="input-email" placeholder="Enter your email address" type="email">
+            <button type="submit" >GET STARTED</button>
+        </form>
+    </section>
+
+
 </div>
 
 </body>
