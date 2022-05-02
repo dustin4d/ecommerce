@@ -46,14 +46,20 @@ nav > ul {
     text-align: center;
     height: 200px;
     margin-top: 50px;
+    background-color:oldlace;
 }
 
-#input-email {
-    max-width: 275px;
-    margin-top: 1.5rem;
+#hero input[type='email'] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 2em;
 }
 
-button {
-    display: block;
-    margin-top: 1.5rem;
+#hero input[type='submit'] {
+    width: 100%;
+    max-width: 80%;
+    margin-top: 1em;
+    height: 30px;
+    border: 0;
+    background-color: #f1c40f;
 }
