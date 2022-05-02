@@ -63,3 +63,28 @@ nav > ul {
     border: 0;
     background-color: #f1c40f;
 }
+
+/* FEATURES */
+#features {
+    margin-top: 50px;
+}
+
+.grid {
+    display: flex;
+    height: 120px;
+}
+
+.grid .icon {
+    color: darkorange;
+    width: 200px; 
+    display: flex;
+    min-width: 200px;
+}
+
+.grid i {
+    margin: 0 auto;
+}
+
+.grid .desc {
+    flex-direction: column;
+}
