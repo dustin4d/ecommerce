@@ -95,3 +95,13 @@ nav > ul {
     width: 80vw;
 }
 
+/* How It Works */
+#how-it-works {
+    display: flex;
+    justify-content: center;
+}
+
+#how-it-works iframe {
+    width: 100%;
+    max-width: 60%;
+}
